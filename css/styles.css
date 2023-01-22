@@ -1,0 +1,69 @@
+/*
+COLOR PALETTE
+https://coolors.co/1c3144-419d78-f9f6f0-ed6a5a-eb9d1e
+deep blue: #1c3144;
+fresh green: #419d78;
+off white: #f9f6f0;
+terra-cotta: #ed6a5a;
+marigold: #efad43;
+*/
+
+/* Global styles
+------------------------------------*/
+body {
+  color: #1c3144;
+}
+img {
+  width: 300px;
+}
+a  {
+  color: #efad43;
+}
+a:hover  {
+  text-decoration: none;
+}
+
+/* Profile
+------------------------------------*/
+header {
+  background: #1c3144;
+  color: #f9f6f0;
+}
+
+/* Projects
+------------------------------------*/
+.projects {
+  background: #f9f6f0;
+}
+.projects a  {
+  color: #1c3144;
+}
+.projects .btn  {
+  background: #1c3144;
+  color: #f9f6f0;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+.projects .btn:hover  {
+  background: rgba(28, 49, 68, 80%);
+}
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+  background: #419d78;
+  color: #f9f6f0;
+}
+
+/* Education
+------------------------------------*/
+
+
+
+/* Contact Info
+------------------------------------*/
+footer {
+  background: #1c3144;
+  color: #f9f6f0;
+}
