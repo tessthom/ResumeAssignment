@@ -63,6 +63,55 @@ h1, h2  {
 
 /* Navigation
 ------------------------------------*/
+.nav  {
+  margin: 0 auto;
+  background: #efad43;
+}
+ul.mainmenu  {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+ul.mainmenu > li  {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  text-align: center;
+  margin: 0;
+  border: 0;
+  padding: 1rem 2rem;
+}
+.nav li  {
+  display: block;
+}
+.nav ul li:hover  {
+  cursor: pointer;
+  background: #ed6a5a;
+}
+ul.dropdown  {
+  position: absolute;
+  padding: 0;
+  top: 3.5rem;
+  left: -10000px;
+  display: none;
+  width: 100%;
+}
+.nav a  {
+  text-decoration: none;
+  color: #1c3144;
+  font-size: 1rem;
+}
+ul li ul li  {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  background: #f9f6f0;
+}
+ul li:hover > ul,
+ul li ul:hover  {
+  display: block;
+  left: 0;
+}
 
 /* Profile
 ------------------------------------*/
@@ -92,7 +141,6 @@ p.intro  {
   display: inline-block;
 }
 .projects .btn:hover  {
-  /* background: rgba(28, 49, 68, 90%); */
   transform: translate(0, -3px);
   box-shadow: 2px 2px #ee8c4f, 3px 4px #ee8c4f;
 }
